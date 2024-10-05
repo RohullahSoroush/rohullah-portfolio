@@ -13,10 +13,10 @@ const HeroSection = () => {
         </div> */}
         <div className="w-full flex flex-col justify-center gap-4 text-white dark:text-gray-800 md:mt-0 sm:mt-8 xs:mt-4">
           <h1 className="text-4xl font-semibold font-serif">
-            Hello, I'm Rohullah Mohammadi
+            {`Hello, I'm Rohullah Mohammadi`}
           </h1>
           <h3 className="capitalize text-rose-400">
-            i'm{" "}
+            {"i'm "}
             <span className="typing text-green-500 dark:text-green-700">
               Frontend developer
             </span>
