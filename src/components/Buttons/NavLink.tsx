@@ -9,21 +9,17 @@ interface NavLinkProps
 }
 
 const NavLink = forwardRef<HTMLAnchorElement, NavLinkProps>(
-  (
-    {
-      href,
-      as,
-      replace,
-      scroll,
-      shallow,
-      prefetch,
-      locale,
-      className,
-      children,
-      ...rest
-    },
-    ref
-  ) => {
+  ({
+    href,
+    as,
+    replace,
+    scroll,
+    shallow,
+    prefetch,
+    locale,
+    className,
+    children,
+  }) => {
     return (
       <Link
         href={href}
